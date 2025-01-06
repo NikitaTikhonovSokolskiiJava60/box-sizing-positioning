@@ -1,46 +1,47 @@
 .boxes {
     background-color: lavenderblush;
     position: relative;
-    width: 350px;
-    height: 170px;
+    width: 680px;
+    height: 335px;
     z-index: -10;
+    left: 550px;
 
     
 }
 .box {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: relative;
-    border-radius: 100px;
+    border-radius: 150px;
 }
 .box-one {
-    border: 5px solid red;
+    border: 10px solid red;
     position: absolute;
-    left: 240px;
+    left: 460px;
     z-index: -2;
     
 
 }
 .box-two {
-    border: 5px solid blue;
+    border: 10px solid blue;
     position: absolute;
     z-index: +1;
 }
 .box-three {
-    border: 5px solid black;
+    border: 10px solid black;
     position: absolute;
-    left: 120px;
+    left: 230px;
 }
 .box-four {
-    border: 5px solid yellow;
+    border: 10px solid yellow;
     position: absolute;
-    left: 60px;
-    top: 60px;
+    left: 115px;
+    top: 115px;
 }
 .box-five {
-    border: 5px solid green;
+    border: 10px solid green;
     position: absolute;
     z-index: -1;
-    left: 180px;
-    top: 60px;
+    left: 345px;
+    top: 115px;
 }
