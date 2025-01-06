@@ -1,8 +1,9 @@
 .boxes {
-    border: 3px solid red;
+    background-color: lavenderblush;
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 170px;
+    z-index: -10;
 
     
 }
@@ -10,23 +11,36 @@
     width: 100px;
     height: 100px;
     position: relative;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 .box-one {
-    background-color: red;
-    position: fixed;
+    border: 5px solid red;
+    position: absolute;
+    left: 240px;
+    z-index: -2;
     
 
 }
 .box-two {
-    background-color: gold;
-    left: 200px;
-    top: 250px;
-    z-index: -1;
+    border: 5px solid blue;
     position: absolute;
+    z-index: +1;
 }
 .box-three {
-    background-color: green;
+    border: 5px solid black;
     position: absolute;
-    left: 200px
+    left: 120px;
+}
+.box-four {
+    border: 5px solid yellow;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+.box-five {
+    border: 5px solid green;
+    position: absolute;
+    z-index: -1;
+    left: 180px;
+    top: 60px;
 }
