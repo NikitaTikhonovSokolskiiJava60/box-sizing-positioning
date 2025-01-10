@@ -1,40 +1,9 @@
-.boxes {
-    background-color: lavenderblush;
-    position: relative;
-    width: 680px;
-    height: 335px;
-    z-index: -10;
-    left: 550px;
 
-    
+.text {
+    text-align: center;   
 }
-.box {
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-    position: absolute;
-}
-.box-one {
-    border: 10px solid red;
-    left: 460px;
-    z-index: -2;
-}
-.box-two {
-    border: 10px solid blue;
-    z-index: +1;
-}
-.box-three {
-    border: 10px solid black;
-    left: 230px;
-}
-.box-four {
-    border: 10px solid yellow;
-    left: 115px;
-    top: 115px;
-}
-.box-five {
-    border: 10px solid green;
-    z-index: -1;
-    left: 345px;
-    top: 115px;
+.text-block {
+    display: inline-block;
+    width: 500px;  
+    text-align: center;
 }
