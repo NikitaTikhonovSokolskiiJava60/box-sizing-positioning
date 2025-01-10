@@ -12,8 +12,13 @@
     background-color: gold;
     border: 3px solid gray;
     margin-top: 30px;
+    flex-grow: 1;
 }
-.container div:nth-child(odd) {
-    align-self: flex-start;
-    background-color: black;
+.box-one {
+    flex-grow: 0;
+}
+.box-two {
+    flex-grow: 2;
+    align-self: flex-end;
+    flex-shrink: 2;
 }
